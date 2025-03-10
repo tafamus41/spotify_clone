@@ -1,8 +1,8 @@
 import express from "express";
 import dotenv from "dotenv";
 import { clerkMiddleware } from "@clerk/express";
-// import fileUpload from "express-fileupload";
-// import path from "path";
+import fileUpload from "express-fileupload";
+import path from "path";
 // import cors from "cors";
 // import fs from "fs";
 // import { createServer } from "http";
