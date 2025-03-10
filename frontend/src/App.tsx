@@ -10,6 +10,7 @@ import { Toaster } from "react-hot-toast";
 import NotFoundPage from "./pages/404/NotFoundPage";
 import HomePage from "./pages/home/HomePage";
 
+
 function App() {
 	return (
 		<>
