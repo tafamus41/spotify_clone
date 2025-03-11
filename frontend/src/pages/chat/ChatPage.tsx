@@ -2,10 +2,10 @@ import Topbar from "@/components/Topbar";
 import { useChatStore } from "@/stores/useChatStore";
 import { useUser } from "@clerk/clerk-react";
 import { useEffect } from "react";
-import UsersList from "./components/UsersList";
-import ChatHeader from "./components/ChatHeader";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
+import UsersList from "./components/UserList";
+import ChatHeader from "./components/ChatHeader";
 import MessageInput from "./components/MessageInput";
 
 const formatTime = (date: string) => {
