@@ -2,12 +2,12 @@ import { Route, Routes } from "react-router-dom";
 import AuthCallbackPage from "./pages/auth-callback/AuthCallbackPage";
 import { AuthenticateWithRedirectCallback } from "@clerk/clerk-react";
 import MainLayout from "./layout/MainLayout";
-import ChatPage from "./pages/chat/ChatPage";
 import AlbumPage from "./pages/album/AlbumPage";
-import AdminPage from "./pages/admin/AdminPage";
 import { Toaster } from "react-hot-toast";
 import HomePage from "./pages/home/HomePage";
 import NotFoundPage from "./pages/404/NotFoundPage";
+import ChatPage from "./pages/chat/ChatPage";
+import AdminPage from "./pages/admin/AdminPage";
 
 
 function App() {
