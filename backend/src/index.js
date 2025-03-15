@@ -5,10 +5,10 @@ import fileUpload from "express-fileupload";
 import path from "path";
 import cors from "cors";
 // import fs from "fs";
-// import { createServer } from "http";
+import { createServer } from "http";
 // import cron from "node-cron";
 
-// import { initializeSocket } from "./lib/socket.js";
+import { initializeSocket } from "./lib/socket.js";
 
 import { connectDB } from "./lib/db.js";
 import userRoutes from "./routes/user.route.js";
@@ -24,8 +24,8 @@ const __dirname = path.resolve();
 const app = express();
 const PORT = process.env.PORT;
 
-// const httpServer = createServer(app);
-// initializeSocket(httpServer);
+const httpServer = createServer(app);
+initializeSocket(httpServer);
 
 app.use(
 	cors({
